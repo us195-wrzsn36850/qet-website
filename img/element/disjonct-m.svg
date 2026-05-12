@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="30" height="120">
+  <defs>
+    <g id="terminal" stroke-width="1" stroke-linecap="square">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#0000FF" />
+      <line x1="0" y1="1" x2="0" y2="4" stroke="#FF0000" />
+    </g>
+  </defs>
+  <g transform="translate(15,70)" stroke-linecap="square">
+    <g stroke-width="1" fill="none" stroke="#000000" transform="translate(0,32) rotate(90)" >
+      <line x1="0" y1="0" x2="8" y2="0" />
+      </g>
+    <polyline points="0,6 0,0 -10,-40" stroke-width="1" fill="none" stroke="#000000" />
+    <text transform="translate(17.8, -7.8) rotate(0 -5.8 -29.9)" font-family="Sans Serif,MS Sans Serif" font-size="18pt" fill="#000000"></text>
+    <path d="M 0 31 A 8 5 0 0 0 0 21" stroke-width="1" fill="none" stroke="#000000" />
+    <g stroke-width="1" fill="none" stroke="#000000" transform="translate(0,16) rotate(90)" >
+      <line x1="0" y1="0" x2="4" y2="0" />
+      </g>
+    <g stroke-width="1" fill="none" stroke="#000000" transform="translate(0,16)" >
+      <line x1="0" y1="0" x2="10" y2="0" />
+      </g>
+    <g stroke-width="1" fill="none" stroke="#000000" transform="translate(10,6) rotate(90)" >
+      <line x1="0" y1="0" x2="10" y2="0" />
+      </g>
+    <g stroke-width="1" fill="none" stroke="#000000" transform="translate(0,6)" >
+      <line x1="0" y1="0" x2="10" y2="0" />
+      </g>
+    <g stroke-width="1" fill="none" stroke="#000000" transform="translate(0,-60) rotate(90)" >
+      <line x1="0" y1="0" x2="20" y2="0" />
+      </g>
+    <g stroke-width="1" fill="none" stroke="#000000" transform="translate(4,-44) rotate(135)" >
+      <line x1="0" y1="0" x2="11.31" y2="0" />
+      </g>
+    <g stroke-width="1" fill="none" stroke="#000000" transform="translate(-4,-44) rotate(45)" >
+      <line x1="0" y1="0" x2="11.31" y2="0" />
+      </g>
+    <use xlink:href="#terminal" x="0" y="40" transform="rotate(180 0 40)" />
+    <use xlink:href="#terminal" x="0" y="-60" />
+  </g>
+  Your Browser does not support inline SVG!
+</svg>
+
