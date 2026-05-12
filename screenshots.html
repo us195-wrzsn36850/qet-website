@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description"
+    content="QElectroTech is an Electrical CAD Design software for quick and efficient diagrams creation.">
+  <title>QElectroTech: Open Source Electrical CAD Software</title>
+  <link rel="stylesheet" href="./css/bulma-no-dark-mode.min.css">
+
+  <style>
+    .hero-with-bg {
+      position: relative;
+      isolation: isolate;
+    }
+
+    .hero-with-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background-image: url('./img/index/main-hero-bg3.avif');
+      opacity: 0.1;
+    }
+
+    .column>.box {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* For screenshots gallery */
+
+    .modal-content {
+      /* Overwrite the 640px limit by framework */
+      width: max-content;
+    }
+
+    .custom-modal-content {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .full-height-figure {
+      flex-grow: 1;
+      height: 100%;
+    }
+  </style>
+
+</head>
+
+<body class="has-navbar-fixed-top">
+  <!-- Main container -->
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://qelectrotech.org/">
+        <img src="./img/index/logo1.svg" alt="QET-logo">
+
+      </a>
+      <!-- span required for the burger icon to display -->
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start">
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Documentation
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Manuals
+            </a>
+            <a class="navbar-item">
+              Screenshots
+            </a>
+            <a class="navbar-item">
+              Symbols
+            </a>
+            <a class="navbar-item">
+              Wiki
+            </a>
+            <hr class="navbar-divider">
+            <div class="navbar-item">
+              Version 0.100
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Development
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Team
+            </a>
+            <a class="navbar-item">
+              BugTracker
+            </a>
+            <a class="navbar-item">
+              GitHub
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Contribute
+            </a>
+          </div>
+        </div>
+
+        <a class="navbar-item">
+          Forum
+        </a>
+
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZZHC9D7C3MDPC" target="_blank"
+              class="button is-warning is-rounded">
+              <span>Donate</span>
+            </a>
+            <a href="" class="button is-link">
+              <span>Download</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-small" style="background-color: #2a6ab8;">
+    <div class="hero-body">
+      <h1 class="title has-text-white">Screenshots</h1>
+      <p class="subtitle has-text-white">Here below are screenshots from community members that shared their projects
+        made with
+        QET.</p>
+    </div>
+  </section>
+
+
+
+  <section class="section">
+    <div class="container box">
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="_ts_2_-_commande_.avif">
+              <img src="./img/screenshots/_ts_2_-_commande_.avif" />
+            </button>
+
+            <div id="_ts_2_-_commande_.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/_ts_2_-_commande_.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="armoire.avif">
+              <img src="./img/screenshots/armoire.avif" />
+            </button>
+
+            <div id="armoire.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/armoire.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="coffret_cordons_chauffants.avif">
+              <img src="./img/screenshots/coffret_cordons_chauffants.avif" />
+            </button>
+
+            <div id="coffret_cordons_chauffants.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/coffret_cordons_chauffants.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="coffret_pos_.avif">
+              <img src="./img/screenshots/coffret_pos_.avif" />
+            </button>
+
+            <div id="coffret_pos_.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/coffret_pos_.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="equipement_d'un_volet_roulant.avif">
+              <img src="./img/screenshots/equipement_d'un_volet_roulant.avif" />
+            </button>
+
+            <div id="equipement_d'un_volet_roulant.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/equipement_d'un_volet_roulant.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="ezza.avif">
+              <img src="./img/screenshots/ezza.avif" />
+            </button>
+
+            <div id="ezza.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/ezza.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="ezza1.avif">
+              <img src="./img/screenshots/ezza1.avif" />
+            </button>
+
+            <div id="ezza1.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/ezza1.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="geiger.avif">
+              <img src="./img/screenshots/geiger.avif" />
+            </button>
+
+            <div id="geiger.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/geiger.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="gestion_melasse.avif">
+              <img src="./img/screenshots/gestion_melasse.avif" />
+            </button>
+
+            <div id="gestion_melasse.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/gestion_melasse.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="lcd_4_data.avif">
+              <img src="./img/screenshots/lcd_4_data.avif" />
+            </button>
+
+            <div id="lcd_4_data.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/lcd_4_data.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="lcd_4_data_.avif">
+              <img src="./img/screenshots/lcd_4_data_.avif" />
+            </button>
+
+            <div id="lcd_4_data_.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/lcd_4_data_.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="lmdg.avif">
+              <img src="./img/screenshots/lmdg.avif" />
+            </button>
+
+            <div id="lmdg.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/lmdg.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="machine_no_000_-_configuration_matérielle.avif">
+              <img src="./img/screenshots/machine_no_000_-_configuration_matérielle.avif" />
+            </button>
+
+            <div id="machine_no_000_-_configuration_matérielle.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/machine_no_000_-_configuration_matérielle.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="machine_no_000_-_op,_cpu.avif">
+              <img src="./img/screenshots/machine_no_000_-_op,_cpu.avif" />
+            </button>
+
+            <div id="machine_no_000_-_op,_cpu.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/machine_no_000_-_op,_cpu.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="machine_no_000_-_op.avif">
+              <img src="./img/screenshots/machine_no_000_-_op.avif" />
+            </button>
+
+            <div id="machine_no_000_-_op.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/machine_no_000_-_op.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_bediengehaeuse_-_aufbauplan.avif">
+              <img src="./img/screenshots/nuri_bediengehaeuse_-_aufbauplan.avif" />
+            </button>
+
+            <div id="nuri_bediengehaeuse_-_aufbauplan.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_bediengehaeuse_-_aufbauplan.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_bedienhandgeraet_siemens_ht8.avif">
+              <img src="./img/screenshots/nuri_bedienhandgeraet_siemens_ht8.avif" />
+            </button>
+
+            <div id="nuri_bedienhandgeraet_siemens_ht8.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_bedienhandgeraet_siemens_ht8.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_bedienpanel_siemens_op_012_mit_pcu_50.avif">
+              <img src="./img/screenshots/nuri_bedienpanel_siemens_op_012_mit_pcu_50.avif" />
+            </button>
+
+            <div id="nuri_bedienpanel_siemens_op_012_mit_pcu_50.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_bedienpanel_siemens_op_012_mit_pcu_50.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_bustopologie_profinet,_ethernet,_drivecliq.avif">
+              <img src="./img/screenshots/nuri_bustopologie_profinet,_ethernet,_drivecliq.avif" />
+            </button>
+
+            <div id="nuri_bustopologie_profinet,_ethernet,_drivecliq.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_bustopologie_profinet,_ethernet,_drivecliq.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_klemmenplan_+sc1-x200.avif">
+              <img src="./img/screenshots/nuri_klemmenplan_+sc1-x200.avif" />
+            </button>
+
+            <div id="nuri_klemmenplan_+sc1-x200.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_klemmenplan_+sc1-x200.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_klemmenplan_+sc1-x38.avif">
+              <img src="./img/screenshots/nuri_klemmenplan_+sc1-x38.avif" />
+            </button>
+
+            <div id="nuri_klemmenplan_+sc1-x38.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_klemmenplan_+sc1-x38.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_schaltschrankaufbau_-_innenansicht.avif">
+              <img src="./img/screenshots/nuri_schaltschrankaufbau_-_innenansicht.avif" />
+            </button>
+
+            <div id="nuri_schaltschrankaufbau_-_innenansicht.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_schaltschrankaufbau_-_innenansicht.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_schaltschrankaufbau_-_innenansicht.avif">
+              <img src="./img/screenshots/nuri_schaltschrankaufbau_-_innenansicht.avif" />
+            </button>
+
+            <div id="nuri_schaltschrankaufbau_-_innenansicht.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_schaltschrankaufbau_-_innenansicht.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_siemens_et_200s_-_aufbau1.avif">
+              <img src="./img/screenshots/nuri_siemens_et_200s_-_aufbau1.avif" />
+            </button>
+
+            <div id="nuri_siemens_et_200s_-_aufbau1.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_siemens_et_200s_-_aufbau1.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_siemens_et_200s_-_aufbau2.avif">
+              <img src="./img/screenshots/nuri_siemens_et_200s_-_aufbau2.avif" />
+            </button>
+
+            <div id="nuri_siemens_et_200s_-_aufbau2.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_siemens_et_200s_-_aufbau2.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_siemens_s7_300_-_aufbau.avif">
+              <img src="./img/screenshots/nuri_siemens_s7_300_-_aufbau.avif" />
+            </button>
+
+            <div id="nuri_siemens_s7_300_-_aufbau.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_siemens_s7_300_-_aufbau.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="nuri_stueckliste.avif">
+              <img src="./img/screenshots/nuri_stueckliste.avif" />
+            </button>
+
+            <div id="nuri_stueckliste.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/nuri_stueckliste.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="oprerational_amplifier_ua741.avif">
+              <img src="./img/screenshots/oprerational_amplifier_ua741.avif" />
+            </button>
+
+            <div id="oprerational_amplifier_ua741.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/oprerational_amplifier_ua741.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="puissance_vis_col,_inclinée,_ventilateur.avif">
+              <img src="./img/screenshots/puissance_vis_col,_inclinée,_ventilateur.avif" />
+            </button>
+
+            <div id="puissance_vis_col,_inclinée,_ventilateur.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/puissance_vis_col,_inclinée,_ventilateur.avif"
+                    style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech1.avif">
+              <img src="./img/screenshots/qelectrotech1.avif" />
+            </button>
+
+            <div id="qelectrotech1.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech1.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech10.avif">
+              <img src="./img/screenshots/qelectrotech10.avif" />
+            </button>
+
+            <div id="qelectrotech10.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech10.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech11.avif">
+              <img src="./img/screenshots/qelectrotech11.avif" />
+            </button>
+
+            <div id="qelectrotech11.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech11.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech12.avif">
+              <img src="./img/screenshots/qelectrotech12.avif" />
+            </button>
+
+            <div id="qelectrotech12.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech12.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech13.avif">
+              <img src="./img/screenshots/qelectrotech13.avif" />
+            </button>
+
+            <div id="qelectrotech13.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech13.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech14.avif">
+              <img src="./img/screenshots/qelectrotech14.avif" />
+            </button>
+
+            <div id="qelectrotech14.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech14.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech15.avif">
+              <img src="./img/screenshots/qelectrotech15.avif" />
+            </button>
+
+            <div id="qelectrotech15.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech15.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech16.avif">
+              <img src="./img/screenshots/qelectrotech16.avif" />
+            </button>
+
+            <div id="qelectrotech16.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech16.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech17.avif">
+              <img src="./img/screenshots/qelectrotech17.avif" />
+            </button>
+
+            <div id="qelectrotech17.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech17.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech2.avif">
+              <img src="./img/screenshots/qelectrotech2.avif" />
+            </button>
+
+            <div id="qelectrotech2.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech2.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech3.avif">
+              <img src="./img/screenshots/qelectrotech3.avif" />
+            </button>
+
+            <div id="qelectrotech3.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech3.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech4.avif">
+              <img src="./img/screenshots/qelectrotech4.avif" />
+            </button>
+
+            <div id="qelectrotech4.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech4.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech5.avif">
+              <img src="./img/screenshots/qelectrotech5.avif" />
+            </button>
+
+            <div id="qelectrotech5.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech5.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech6.avif">
+              <img src="./img/screenshots/qelectrotech6.avif" />
+            </button>
+
+            <div id="qelectrotech6.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech6.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech7.avif">
+              <img src="./img/screenshots/qelectrotech7.avif" />
+            </button>
+
+            <div id="qelectrotech7.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech7.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech8.avif">
+              <img src="./img/screenshots/qelectrotech8.avif" />
+            </button>
+
+            <div id="qelectrotech8.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech8.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="qelectrotech9.avif">
+              <img src="./img/screenshots/qelectrotech9.avif" />
+            </button>
+
+            <div id="qelectrotech9.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/qelectrotech9.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="rafael.avif">
+              <img src="./img/screenshots/rafael.avif" />
+            </button>
+
+            <div id="rafael.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/rafael.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="rafael1.avif">
+              <img src="./img/screenshots/rafael1.avif" />
+            </button>
+
+            <div id="rafael1.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/rafael1.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="rafael2.avif">
+              <img src="./img/screenshots/rafael2.avif" />
+            </button>
+
+            <div id="rafael2.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/rafael2.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="rafael3.avif">
+              <img src="./img/screenshots/rafael3.avif" />
+            </button>
+
+            <div id="rafael3.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/rafael3.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="rafael4.avif">
+              <img src="./img/screenshots/rafael4.avif" />
+            </button>
+
+            <div id="rafael4.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/rafael4.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="ships_electrical1.avif">
+              <img src="./img/screenshots/ships_electrical1.avif" />
+            </button>
+
+            <div id="ships_electrical1.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/ships_electrical1.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="ships_electrical2.avif">
+              <img src="./img/screenshots/ships_electrical2.avif" />
+            </button>
+
+            <div id="ships_electrical2.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/ships_electrical2.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="signalisation_supervision.avif">
+              <img src="./img/screenshots/signalisation_supervision.avif" />
+            </button>
+
+            <div id="signalisation_supervision.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/signalisation_supervision.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="signalisation_ts2_suite.avif">
+              <img src="./img/screenshots/signalisation_ts2_suite.avif" />
+            </button>
+
+            <div id="signalisation_ts2_suite.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/signalisation_ts2_suite.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="sondes_vegavib_61.avif">
+              <img src="./img/screenshots/sondes_vegavib_61.avif" />
+            </button>
+
+            <div id="sondes_vegavib_61.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/sondes_vegavib_61.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+      <div class="columns is-vcentered">
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="synoptique.avif">
+              <img src="./img/screenshots/synoptique.avif" />
+            </button>
+
+            <div id="synoptique.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/synoptique.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <button class="js-modal-trigger" data-target="z1c-p102.avif">
+              <img src="./img/screenshots/z1c-p102.avif" />
+            </button>
+
+            <div id="z1c-p102.avif" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content custom-modal-content">
+                <figure class="image full-height-figure">
+                  <img src="./img/screenshots/z1c-p102.avif" style="height: 100%; object-fit: cover;">
+                </figure>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+    </div>
+  </section>
+
+
+  <div class="columns">
+    <div class="column">
+      <footer class="footer">
+        <div class="columns">
+          <div class="column is-1"></div>
+          <div class="column is-4">
+            <p>© QElectroTech 2006-2026</p>
+            <p>QElectroTech is an open-source project with the goal to develop free Electrical CAD software.
+            </p>
+          </div>
+          <div class="column is-2">
+            <p class="has-text-weight-extrabold">Download</p>
+            <ul>
+              <li>Linux</li>
+              <li>Mac</li>
+              <li>Windows</li>
+            </ul>
+          </div>
+          <div class="column is-2">
+            <p class="has-text-weight-extrabold">Contribute</p>
+            <ul>
+              <li>Donate</li>
+              <li>Join us</li>
+            </ul>
+          </div>
+          <div class="column is-2">
+            <p class="has-text-weight-extrabold">Help</p>
+            <ul>
+              <li><a href="https://qelectrotech.org/forum/index.php">Forum</a></li>
+              <li><a href="https://qelectrotech.org/wiki_new/">Wiki</a></li>
+            </ul>
+          </div>
+          <div class="column is-1"></div>
+        </div>
+        <p class="has-text-centered">
+          <strong>2026 - The QElectroTech Team</strong>
+        </p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- For modal windows screenshots -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Functions to open and close a modal
+      function openModal($el) {
+        $el.classList.add('is-active');
+      }
+
+      function closeModal($el) {
+        $el.classList.remove('is-active');
+      }
+
+      function closeAllModals() {
+        (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+          closeModal($modal);
+        });
+      }
+
+      // Add a click event on buttons to open a specific modal
+      (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
+        const modal = $trigger.dataset.target;
+        const $target = document.getElementById(modal);
+
+        $trigger.addEventListener('click', () => {
+          if (window.innerWidth > 768) {
+            openModal($target);
+          }
+        });
+      });
+
+      // Add a click event on various child elements to close the parent modal
+      (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+        const $target = $close.closest('.modal');
+
+        $close.addEventListener('click', () => {
+          closeModal($target);
+        });
+      });
+
+      // Add a keyboard event to close all modals
+      document.addEventListener('keydown', (event) => {
+        if (event.key === "Escape") {
+          closeAllModals();
+        }
+      });
+    });
+
+    // Close modals when the window is resized to mobile (<768px)
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth < 768) {
+        // Select all modal elements
+        const $modals = document.querySelectorAll('.modal');
+
+        // Remove the 'is-active' class from each to hide them
+        $modals.forEach(($el) => {
+          $el.classList.remove('is-active');
+        });
+      }
+    });
+  </script>
+
+</body>
+
+</html>

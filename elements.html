@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description"
+    content="QElectroTech is an Electrical CAD Design software for quick and efficient diagrams creation.">
+  <title>QElectroTech: Open Source Electrical CAD Software</title>
+  <link rel="stylesheet" href="./css/bulma-no-dark-mode.min.css">
+
+  <style>
+    .hero-with-bg {
+      position: relative;
+      isolation: isolate;
+    }
+
+    .hero-with-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background-image: url('./img/index/main-hero-bg3.avif');
+      opacity: 0.1;
+    }
+
+    .column>.box {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+
+</head>
+
+<body class="has-navbar-fixed-top">
+  <!-- Main container -->
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://qelectrotech.org/">
+        <img src="./img/index/logo1.svg" alt="QET-logo">
+
+      </a>
+      <!-- span required for the burger icon to display -->
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start">
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Documentation
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Manuals
+            </a>
+            <a class="navbar-item">
+              Screenshots
+            </a>
+            <a class="navbar-item">
+              Symbols
+            </a>
+            <a class="navbar-item">
+              Wiki
+            </a>
+            <hr class="navbar-divider">
+            <div class="navbar-item">
+              Version 0.100
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Development
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Team
+            </a>
+            <a class="navbar-item">
+              BugTracker
+            </a>
+            <a class="navbar-item">
+              GitHub
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Contribute
+            </a>
+          </div>
+        </div>
+
+        <a class="navbar-item">
+          Forum
+        </a>
+
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZZHC9D7C3MDPC" target="_blank"
+              class="button is-warning is-rounded">
+              <span>Donate</span>
+            </a>
+            <a href="" class="button is-link">
+              <span>Download</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-small" style="background-color: #2a6ab8;">
+    <div class="hero-body">
+      <h1 class="title has-text-white">Official Element Collection</h1>
+      <p class="subtitle has-text-white">Explore the QET library with thousands of components.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-three-quarters">
+          <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+            <ul>
+              <li><a href="#">Root</a></li>
+              <li><a href="#">10 - Electric</a></li>
+              <li><a href="#">11 - Single Pole</a></li>
+              <li><a href="#">200 - Fuses Protective Gears</a></li>
+              <li class="is-active"><a href="#" aria-current="page">11 - Circuit Breakers</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- // Can adjust column widths at specific breakpoints (e.g., is-half-desktop, is-full-mobile) to ensure
+        inputs look correct on all devices -->
+
+        <div class="column">
+          <div class="field has-addons">
+            <div class="control is-expanded">
+              <input class="input is-fullwidth" type="text" placeholder="Find an element">
+            </div>
+            <div class="control">
+              <button class="button is-info">
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <!-- Row 1 -->
+        <div class="column is-one-third">
+          <div class="box">
+            <div class="columns is-mobile is-vcentered">
+              <div class="column is-10">
+                <p class="title is-4 has-text-centered">disjoncteur1</p>
+              </div>
+
+              <div class="column">
+                <div class="dropdown is-hoverable is-right">
+                  <div class="dropdown-trigger">
+                    <button class="button has-background-grey-lighther is-rounded is-small" aria-haspopup="true"
+                      aria-controls="dropdown-menu1">
+                      <span>?</span>
+                    </button>
+                  </div>
+                  <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                    <div class="dropdown-content">
+                      <div class="dropdown-item">
+                        <div class="fixed-grid has-1-cols">
+                          <div class="grid">
+                            <div class="cell">
+                              <p class="is-underlined">FR</p>
+                            </div>
+                            <div class="cell">
+                              <p>Disjoncteur</p>
+                            </div>
+
+                            <div class="cell">
+                              <p class="is-underlined">EN</p>
+                            </div>
+                            <div class="cell">
+                              <p>Circuit Breaker</p>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <img src="./img/element/disjoncteur1.svg" />
+              </figure>
+            </div>
+            <br>
+            <div class="fixed-grid has-2-cols has-text-centered">
+              <div class="grid">
+                <div class="cell">
+                  <p>Version</p>
+                </div>
+                <div class="cell">
+                  <p>0.100.0</p>
+                </div>
+
+
+                <div class="cell">
+                  <p>Type</p>
+                </div>
+                <div class="cell">
+                  <p>Protection</p>
+                </div>
+
+                <div class="cell">
+                  <p>Link Type</p>
+                </div>
+                <div class="cell">
+                  <p>Master</p>
+                </div>
+
+              </div>
+            </div>
+            <h2 class="subtitle">Additional description if necessary.</h2>
+
+
+          </div>
+        </div>
+
+
+        <!-- Row 1 -->
+        <div class="column is-one-third">
+          <div class="box">
+            <div class="columns is-mobile is-vcentered">
+              <div class="column is-10">
+                <p class="title is-4 has-text-centered">disjonct-m</p>
+              </div>
+
+              <div class="column">
+                <div class="dropdown is-hoverable is-right">
+                  <div class="dropdown-trigger">
+                    <button class="button has-background-grey-lighther is-rounded is-small" aria-haspopup="true"
+                      aria-controls="dropdown-menu2">
+                      <span>?</span>
+                    </button>
+                  </div>
+                  <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                    <div class="dropdown-content">
+                      <div class="dropdown-item">
+                        <div class="fixed-grid has-1-cols">
+                          <div class="grid">
+                            <div class="cell">
+                              <p class="is-underlined">FR</p>
+                            </div>
+                            <div class="cell">
+                              <p>Disjoncteur</p>
+                            </div>
+
+                            <div class="cell">
+                              <p class="is-underlined">EN</p>
+                            </div>
+                            <div class="cell">
+                              <p>Circuit Breaker</p>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <img src="./img/element/disjonct-m.svg" />
+              </figure>
+            </div>
+            <br>
+            <div class="fixed-grid has-2-cols has-text-centered">
+              <div class="grid">
+                <div class="cell">
+                  <p>Version</p>
+                </div>
+                <div class="cell">
+                  <p>0.100.0</p>
+                </div>
+
+
+                <div class="cell">
+                  <p>Type</p>
+                </div>
+                <div class="cell">
+                  <p>Protection</p>
+                </div>
+
+                <div class="cell">
+                  <p>Link Type</p>
+                </div>
+                <div class="cell">
+                  <p>Master</p>
+                </div>
+
+              </div>
+            </div>
+            <h2 class="subtitle">Additional description if necessary.</h2>
+
+
+          </div>
+        </div>
+
+
+
+
+        <!-- Row 1 -->
+        <div class="column is-one-third">
+          <div class="box">
+            <div class="columns is-mobile is-vcentered">
+              <div class="column is-10">
+                <p class="title is-4 has-text-centered">jistic_1p</p>
+              </div>
+
+              <div class="column">
+                <div class="dropdown is-hoverable is-right">
+                  <div class="dropdown-trigger">
+                    <button class="button has-background-grey-lighther is-rounded is-small" aria-haspopup="true"
+                      aria-controls="dropdown-menu3">
+                      <span>?</span>
+                    </button>
+                  </div>
+                  <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                    <div class="dropdown-content">
+                      <div class="dropdown-item">
+                        <div class="fixed-grid has-1-cols">
+                          <div class="grid">
+                            <div class="cell">
+                              <p class="is-underlined">FR</p>
+                            </div>
+                            <div class="cell">
+                              <p>Disjoncteur Magnéto-Thermique</p>
+                            </div>
+
+                            <div class="cell">
+                              <p class="is-underlined">EN</p>
+                            </div>
+                            <div class="cell">
+                              <p>Thermal Circuit Breaker</p>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <img src="./img/element/jistic_1p.svg" />
+              </figure>
+            </div>
+            <br>
+            <div class="fixed-grid has-2-cols has-text-centered">
+              <div class="grid">
+                <div class="cell">
+                  <p>Version</p>
+                </div>
+                <div class="cell">
+                  <p>0.100.0</p>
+                </div>
+
+
+                <div class="cell">
+                  <p>Type</p>
+                </div>
+                <div class="cell">
+                  <p>Protection</p>
+                </div>
+
+                <div class="cell">
+                  <p>Link Type</p>
+                </div>
+                <div class="cell">
+                  <p>Master</p>
+                </div>
+
+              </div>
+            </div>
+            <h2 class="subtitle">Additional description if necessary.</h2>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <div class="columns">
+    <div class="column">
+      <footer class="footer">
+        <div class="columns">
+          <div class="column is-1"></div>
+          <div class="column is-4">
+            <p>© QElectroTech 2006-2026</p>
+            <p>QElectroTech is an open-source project with the goal to develop free Electrical CAD software.
+            </p>
+          </div>
+          <div class="column is-2">
+            <p class="has-text-weight-extrabold">Download</p>
+            <ul>
+              <li>Linux</li>
+              <li>Mac</li>
+              <li>Windows</li>
+            </ul>
+          </div>
+          <div class="column is-2">
+            <p class="has-text-weight-extrabold">Contribute</p>
+            <ul>
+              <li>Donate</li>
+              <li>Join us</li>
+            </ul>
+          </div>
+          <div class="column is-2">
+            <p class="has-text-weight-extrabold">Help</p>
+            <ul>
+              <li><a href="https://qelectrotech.org/forum/index.php">Forum</a></li>
+              <li><a href="https://qelectrotech.org/wiki_new/">Wiki</a></li>
+            </ul>
+          </div>
+          <div class="column is-1"></div>
+        </div>
+        <p class="has-text-centered">
+          <strong>2026 - The QElectroTech Team</strong>
+        </p>
+      </footer>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description"
+    content="QElectroTech is an Electrical CAD Design software for quick and efficient diagrams creation.">
+  <title>QElectroTech: Open Source Electrical CAD Software</title>
+  <link rel="stylesheet" href="./css/bulma-no-dark-mode.min.css">
+
+  <style>
+    .hero-with-bg {
+      position: relative;
+      isolation: isolate;
+    }
+
+    .hero-with-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background-image: url('./img/index/main-hero-bg3.avif');
+      opacity: 0.1;
+    }
+
+    .column>.box {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+
+</head>
+
+<body class="has-navbar-fixed-top">
+  <!-- Main container -->
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://qelectrotech.org/">
+        <img src="./img/index/logo1.svg" alt="QET-logo">
+
+      </a>
+      <!-- span required for the burger icon to display -->
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start">
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Documentation
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Manuals
+            </a>
+            <a class="navbar-item">
+              Screenshots
+            </a>
+            <a class="navbar-item">
+              Symbols
+            </a>
+            <a class="navbar-item">
+              Wiki
+            </a>
+            <hr class="navbar-divider">
+            <div class="navbar-item">
+              Version 0.100
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Development
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Team
+            </a>
+            <a class="navbar-item">
+              BugTracker
+            </a>
+            <a class="navbar-item">
+              GitHub
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Contribute
+            </a>
+          </div>
+        </div>
+
+        <a class="navbar-item">
+          Forum
+        </a>
+
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZZHC9D7C3MDPC" target="_blank"
+              class="button is-warning is-rounded">
+              <span>Donate</span>
+            </a>
+            <a href="" class="button is-link">
+              <span>Download</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-fullheight-with-navbar hero-with-bg" style="background-color: #2a6ab8;">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-two-fifths">
+            <h1 class="title is-1 has-text-white">Draw Freely</h1>
+            <br>
+            <p class="subtitle is-5 has-text-white">
+              Discover the power of a schematic tool for productivity. QElectroTech embeds all the core functionalities
+              needed to produce electrical diagrams efficiently.</p>
+            <br>
+            <p>
+            <div class="buttons">
+              <a href="" class="button is-medium is-white">
+                <span>Download QET</span>
+              </a>
+            </div>
+            </p>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-3by2 is-hidden-mobile">
+                  <img src="./img/index/puissance-cmde.avif" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1">Why use QET?</h1>
+          <p class="is-size-4">Explore the core functionalities of your software.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline">
+        <!-- Row 1 -->
+        <div class="column is-half">
+          <div class="box has-text-centered">
+            <h1 class="title is-4">Advanced Conductor and Connection Management</h1>
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <img src="./img/index/connection.avif" />
+              </figure>
+            </div>
+            <br>
+            <h2 class="subtitle">The program incorporates improved conductor management through a placement algorithm
+              that uses pathfinding functions.</h2>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="box has-text-centered">
+            <h1 class="title is-4">Powerful Element Editor</h1>
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <img src="./img/index/element-editor.avif" />
+              </figure>
+            </div>
+            <br>
+            <h2 class="subtitle">The Element Editor allows you to create and modify components with precision including
+              options to ease the duplication of parts.</h2>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="column is-half">
+          <div class="box has-text-centered">
+            <h1 class="title is-4">Smart Automatic Numbering</h1>
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <img src="./img/index/numbering1.avif" />
+              </figure>
+            </div>
+            <br>
+            <h2 class="subtitle">QET offers versatile automatic numbering functions for conductors and components to
+              ensure consistency throughout your projects.</h2>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="box has-text-centered">
+            <h1 class="title is-4">Extensive Library</h1>
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <img src="./img/index/library1.avif" />
+              </figure>
+            </div>
+            <br>
+            <h2 class="subtitle">With thousands of library components readily available, start to work right away and
+              translate your ideas into technical documents quickly.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1">They support us</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <a href="https://www.cborn.com/" target="_blank"><img src="./img/index/c-born.svg" /></a>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <a href="https://linergy.de/" target="_blank"><img src="./img/index/Linergy.svg" /></a>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <a href="https://opentoolchain.org/" target="_blank"><img src="./img/index/otfn-logo.avif" /></a>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-quarter">
+          <div class="has-text-centered">
+            <div class="has-text-centered">
+              <figure class="image is-inline-block">
+                <a href="http://www.soliton.com.br/" target="_blank"><img src="./img/index/Soliton.avif" /></a>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-1by1 is-hidden-mobile">
+                <img src="./img/index/contribute.svg" />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <h1 class="title is-1">Contribute</h1>
+          <p class="is-size-5 has-text-left">Over the years, a lot of users have implemented additional functionalities
+            to QET using
+            various programming languages. The project is always looking for contributors to help
+            make QET even better.</p>
+          <br>
+          <div class="buttons">
+            <a href="" class="button is-medium is-link">
+              <span>Join us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="columns">
+    <div class="column">
+      <footer class="footer">
+        <div class="columns">
+          <div class="column is-1"></div>
+          <div class="column is-4">
+            <p>© QElectroTech 2006-2026</p>
+            <p>QElectroTech is an open-source project with the goal to develop free Electrical CAD software.
+            </p>
+          </div>
+          <div class="column is-2">
+            <p class="has-text-weight-extrabold">Download</p>
+            <ul>
+              <li>Linux</li>
+              <li>Mac</li>
+              <li>Windows</li>
+            </ul>
+          </div>
+          <div class="column is-2">
+            <p class="has-text-weight-extrabold">Contribute</p>
+            <ul>
+              <li>Donate</li>
+              <li>Join us</li>
+            </ul>
+          </div>
+          <div class="column is-2">
+            <p class="has-text-weight-extrabold">Help</p>
+            <ul>
+              <li><a href="https://qelectrotech.org/forum/index.php">Forum</a></li>
+              <li><a href="https://qelectrotech.org/wiki_new/">Wiki</a></li>
+            </ul>
+          </div>
+          <div class="column is-1"></div>
+        </div>
+        <p class="has-text-centered">
+          <strong>2026 - The QElectroTech Team</strong>
+        </p>
+      </footer>
+    </div>
+  </div>
+
+</body>
+
+</html>
