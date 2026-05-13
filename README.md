@@ -1,4 +1,4 @@
-![](logo.png)
+![](https://github.com/qelectrotech/qelectrotech-source-mirror/blob/master/logo.png)
 
 
 # QElectroTech
